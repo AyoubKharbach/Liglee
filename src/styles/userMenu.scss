@@ -1,0 +1,205 @@
+.side-user {
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(226, 224, 224, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 1;
+}
+.side-user ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.side-user li {
+  margin: 1rem 0;
+}
+.side-user a {
+  text-decoration: none;
+  color: #706d6d;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.side-user a:hover {
+  color: rgb(179, 121, 121);
+}
+.icon-close {
+  width: 1rem;
+  height: 1rem;
+  float: right;
+  color: #706d6d;
+  margin-top: 0rem;
+  margin-right: 1rem;
+}
+.icon-close:hover {
+  width: 1.3rem;
+  height: 1.2rem;
+  color: #585757;
+}
+.add-button {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: white;
+  background-color: rgb(55, 137, 231);
+  border: 0;
+  border-radius: 100%;
+  text-align: center;
+  position: absolute;
+  padding-top: 0.1rem;
+  left: 4.6rem;
+  top: 5.2rem;
+  text-align: center;
+}
+.add-button:hover {
+  background-color: rgb(20, 20, 212);
+}
+.add-button:active {
+  background-color: #083d81;
+  transform: translateY(2px);
+}
+.profil {
+  width: 6rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.5rem;
+}
+.circle-user {
+  border: 3px solid #f0eded;
+  border-radius: 50%;
+  width: 6.4rem;
+  height: 6.3rem;
+  position: absolute;
+  margin-left: 3.3rem;
+}
+.namebox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 13rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+.name {
+  font-weight: bold;
+}
+.proffesion {
+  color: rgb(163, 161, 161);
+}
+.niveau {
+  position: absolute;
+  top: 17rem;
+  left: 1.3rem;
+}
+
+.levels {
+  width: 1.7rem;
+  height: 1.3rem;
+  background-color: rgba(245, 243, 243, 0.986);
+  text-align: center;
+  padding-top: 0.4rem;
+  font-size: 0.6rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12%;
+  color: black;
+}
+.language {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+.level {
+  color: rgb(202, 199, 199);
+  font-size: 0.7rem;
+}
+.lang {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.degrees-guide {
+  display: inline-flex;
+  width: 6rem;
+  height: 0.3rem;
+  border-radius: 16px;
+  background-color: #e0dbdb;
+  transition: all ease 0.5s;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  .degree-blue {
+    display: inline-flex;
+    width: 4rem;
+    height: 0.3rem;
+    border-radius: 16px;
+    background-color: #0079eb;
+    transition: all ease 0.5s;
+  }
+  .degree-blue2 {
+    display: inline-flex;
+    width: 5rem;
+    height: 0.3rem;
+    border-radius: 16px;
+    background-color: #0079eb;
+    transition: all ease 0.5s;
+  }
+}
+
+.reminders {
+  font-size: 12px;
+  font-weight: bold;
+  right: 0;
+  position: absolute;
+  top: 25rem;
+  left: 1.3rem;
+}
+.icon-notif {
+  width: 1rem;
+  height: 1rem;
+  float: right;
+  color: #c4c4c4;
+  margin-top: 0rem;
+  margin-right: 1rem;
+  position: absolute;
+  top: 25rem;
+  left: 16.5rem;
+}
+.icon-notif:hover {
+  width: 1.3rem;
+  height: 1.2rem;
+  color: #585757;
+}
+.Reminders-list {
+  position: absolute;
+  top: 28rem;
+}
+.div-error {
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 20%;
+  background-color: rgb(252, 230, 230);
+  text-align: center;
+  color: rgb(201, 58, 58);
+  padding-top: 0.5rem;
+  margin-top: -1.1rem;
+}
+.div-error-msg {
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 20%;
+  background-color: rgb(228, 240, 250);
+  text-align: center;
+  color: rgb(37, 132, 209);
+  padding-top: 0.5rem;
+  margin-top: -1.1rem;
+}
+.bio {
+  position: absolute;
+  top: 39rem;
+  left: 6rem;
+}

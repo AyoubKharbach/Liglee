@@ -1,0 +1,114 @@
+$sidebar-bg-color: white;
+$sidebar-color: #706d6d;
+$sidebar-width: 230px;
+$sidebar-collapsed-width: 80px;
+$highlight-color: black;
+$icon-bg-color: transparent;
+
+.sidebar {
+  box-shadow: 2px 0px 5px rgba(226, 224, 224, 0.5);
+}
+.logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 49px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #212121;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 1rem;
+  margin-bottom: 2.1rem;
+  margin-top: 3rem;
+  background-color: #f6f8ff;
+  height: 170px;
+  width: 150px;
+  margin-left: 1.8rem;
+  border-radius: 10%;
+}
+.upgradeImage {
+  width: 44px;
+  height: 35px;
+  position: absolute;
+  left: 6rem;
+  top: 27.5rem;
+}
+.textUpgrade {
+  text-align: center;
+  color: rgb(99, 96, 96);
+}
+.upgradeButton {
+  background-color: #3074f1;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 9px;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1.9rem;
+  margin-top: 1rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  outline: 0;
+  cursor: pointer;
+}
+
+.upgradeButton:hover {
+  background-color: #145ce0;
+}
+.upgradeButton:after {
+  content: "";
+  background: #6498db;
+  display: block;
+  position: absolute;
+  padding-top: 16%;
+  padding-left: 39%;
+  margin-left: -12px !important;
+  margin-top: -10%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.upgradeButton:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+@media (max-width: 750px) {
+  $sidebar-width: 200px;
+  .menu-link {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+
+  .title {
+    display: none;
+  }
+}
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";

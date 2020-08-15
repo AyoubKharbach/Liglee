@@ -1,0 +1,461 @@
+.dashboard {
+  margin: 2.5rem 2rem;
+}
+.head {
+  width: 66rem;
+}
+.dashboard-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.dashboard-date {
+  position: absolute;
+  left: 71.3rem;
+  top: 2.7rem;
+  font-weight: bold;
+  color: rgb(180, 178, 178);
+}
+.search-icon {
+  position: absolute;
+  width: 2.2rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 20%;
+  padding-top: 0.5rem;
+  text-align: center;
+  left: 82rem;
+  top: 2.3rem;
+  color: rgb(4, 78, 189);
+  background-color: rgb(183, 207, 241);
+}
+.dashboard-text {
+  background-color: rgb(253, 234, 234);
+  width: 67.4rem;
+  height: 9rem;
+  border-radius: 15px;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.text-title {
+  color: rgb(231, 106, 106);
+  position: absolute;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.paragraph {
+  padding-left: 3.1rem;
+  padding-top: 3.5rem;
+  line-height: 5px;
+}
+.latest-result {
+  width: 20rem;
+  height: 19rem;
+  background-color: white;
+  border-radius: 20px;
+  margin: 1rem 0;
+  padding: 3rem 1rem;
+  margin-right: 2rem;
+  padding-bottom: 0;
+}
+.latest-result td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-title {
+  position: absolute;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.more {
+  position: absolute;
+  font-size: 0.8rem;
+  padding-left: 15.3rem;
+  padding-top: 2.2rem;
+}
+.icon-arrow-result {
+  font-size: 1.2rem;
+  position: absolute;
+  padding-left: 17.2rem;
+  padding-top: 2.1rem;
+}
+.result-value {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.result {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(177, 175, 175);
+  text-align: center;
+}
+.degrees {
+  display: inline-flex;
+  width: 3.2rem;
+  height: 0.2rem;
+  border-radius: 16px;
+  background-color: #e0dbdb;
+  transition: all ease 0.5s;
+  margin: 1rem;
+  .degree-red1 {
+    display: inline-flex;
+    width: 0.5rem;
+    height: 0.2rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.2s;
+  }
+  .degree-red2 {
+    display: inline-flex;
+    width: 0.3rem;
+    height: 0.2rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.2s;
+  }
+  .degree-blue1 {
+    display: inline-flex;
+    width: 1.4rem;
+    height: 0.2rem;
+    border-radius: 16px;
+    background-color: #0650f0;
+    transition: all ease 0.2s;
+  }
+  .degree-blue2 {
+    display: inline-flex;
+    width: 2.7rem;
+    height: 0.2rem;
+    border-radius: 16px;
+    background-color: #0650f0;
+    transition: all ease 0.2s;
+  }
+}
+.pourcentage-red {
+  color: #eb3b58;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.pourcentage-blue {
+  color: #0650f0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.divs {
+  display: flex;
+}
+.icon-arrow-time {
+  font-size: 1.2rem;
+  position: absolute;
+  padding-top: 0rem;
+}
+.last-week {
+  font-size: 0.9rem;
+  padding-left: 23rem;
+}
+.time-title {
+  padding-top: 3rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.time-div {
+  width: 43.3rem;
+  height: 19rem;
+  background-color: white;
+  border-radius: 20px;
+  margin: 1rem 0;
+  padding-top: 1rem;
+  margin-right: 2rem;
+  padding-bottom: 0;
+}
+.timing-spend {
+  width: 43rem;
+  height: 12rem;
+  margin-left: 2.2rem;
+  margin-top: 0.7rem;
+}
+.days {
+  font-size: 0.7rem;
+  color: rgb(155, 151, 151);
+}
+.degrees-time {
+  display: inline-flex;
+  width: 0.25rem;
+  height: 9rem;
+  border-radius: 16px;
+  background-color: #e0dbdb;
+  transition: all ease 0.5s;
+  margin: 1rem;
+  .degree-time1-mon {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 5rem;
+    border-radius: 16px;
+    background-color: #0650f0;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 24.3rem;
+  }
+  .degree-time2-mon {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 2rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 23rem;
+  }
+  .degree-time1-tue {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 9rem;
+    border-radius: 16px;
+    background-color: #93aee9;
+    transition: all ease 0.7s;
+    position: absolute;
+  }
+  .degree-time2-tue {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 1.5rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 20.4rem;
+  }
+  .degree-time1-wed {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 5rem;
+    border-radius: 16px;
+    background-color: #93aee9;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 24.3rem;
+  }
+  .degree-time2-wed {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 2.3rem;
+    border-radius: 16px;
+    background-color: #0650f0;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 22rem;
+  }
+  .degree-time1-thu {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 8rem;
+    border-radius: 16px;
+    background-color: #93aee9;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 21.3rem;
+  }
+  .degree-time2-thu {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 2.5rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 21rem;
+  }
+  .degree-time1-fri {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 2rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 20.4rem;
+  }
+  .degree-time1-sat {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 9rem;
+    border-radius: 16px;
+    background-color: #93aee9;
+    transition: all ease 0.7s;
+    position: absolute;
+  }
+  .degree-time2-sat {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 4rem;
+    border-radius: 16px;
+    background-color: #0650f0;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 20.3rem;
+  }
+  .degree-time1-sun {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 9rem;
+    border-radius: 16px;
+    background-color: #93aee9;
+    transition: all ease 0.7s;
+    position: absolute;
+  }
+  .degree-time2-sun {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 4rem;
+    border-radius: 16px;
+    background-color: #0650f0;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 22.8rem;
+  }
+  .degree-time3-sun {
+    display: inline-flex;
+    width: 0.25rem;
+    height: 2.6rem;
+    border-radius: 16px;
+    background-color: #eb3b58;
+    transition: all ease 0.7s;
+    position: absolute;
+    top: 20.3rem;
+  }
+}
+.list-cours {
+  display: flex;
+  list-style-type: none;
+  padding-top: 1.2rem;
+  padding-bottom: 0;
+  padding-left: 3.5rem;
+  text-align: center;
+  margin-top: 0;
+}
+.cours {
+  margin-right: 5rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: rgb(155, 151, 151);
+}
+.circle-cours {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #e0dbdb;
+
+  padding: 3px;
+}
+.circle-red {
+  background-color: #eb3b58;
+}
+.circle-blue {
+  background-color: #0650f0;
+}
+.circle-viole {
+  background-color: #93aee9;
+}
+.courses {
+  display: flex;
+  height: 1.5rem;
+  width: 66rem;
+  margin-top: 0em;
+  margin-left: 0.5rem;
+}
+.more-courses {
+  position: absolute;
+  left: 79rem;
+  top: 35.7rem;
+}
+.icon-arrow-courses {
+  position: absolute;
+  left: 81.4rem;
+  top: 35.7rem;
+}
+.courses-title {
+  position: absolute;
+  top: 35.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.div-courses {
+  display: flex;
+}
+.course {
+  display: flex;
+  width: 16rem;
+  border-radius: 25px;
+  height: 5rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-top: -0.3rem;
+  border: 1px gray solid;
+}
+.grammar {
+  background-color: rgb(86, 86, 179);
+}
+.phrasal-verb {
+  background-color: rgb(166, 166, 231);
+}
+.vocabulary {
+  background-color: rgb(247, 150, 126);
+}
+.lavels-course {
+  height: 2rem;
+  width: 3rem;
+  border-radius: 10px;
+  background-color: rgb(114, 114, 199);
+  color: white;
+  text-align: center;
+  padding-top: 0.8rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.lavels-course-b2 {
+  background-color: rgb(175, 175, 224);
+}
+.lavels-course-c1 {
+  background-color: rgb(250, 163, 141);
+}
+.niveau-course {
+  font-size: 0.8rem;
+  color: rgb(231, 223, 223);
+  padding-bottom: 0.6rem;
+  display: flex;
+}
+.course-value {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.crs {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(231, 223, 223);
+}
+.icon-arrow-course {
+  color: white;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+.image {
+  height: 16rem;
+  width: 16rem;
+  position: absolute;
+  top: 0.7rem;
+  left: 60rem;
+}
+.msg-image {
+  height: 2.5rem;
+  width: 4rem;
+  position: absolute;
+  top: 6rem;
+  left: 60rem;
+}
